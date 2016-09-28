@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<!--
+	Photon by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html ng-app="tweb-labo2-drabble-serneels-heroku-angularjs">
+	<head>
+		<title>Photon by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!-- injector:css -->
+		<link rel="stylesheet" href="/src/bower_components/bootstrap/dist/css/bootstrap.css">
+		<!-- endinjector -->
+	</head>
+	<body>
+
+		<!-- Header -->
+			<section id="header">
+				<div class="inner">
+					<h1 style="float: left; margin-left: 20px;">TWEB web app</h1>
+
+					<a href="https://servietsky777.github.io/TWEB-Labo2-Drabble-Serneels-Heroku-AngularJS/" class="scrolly" style="border-bottom: none; color: white; font-size: 19px;float: right; margin-right: 20px; margin-top: 5px;">About</a>
+					<a ui-sref="help" class="scrolly" style="border-bottom: none; color: white; font-size: 19px;float: right; margin-right: 20px; margin-top: 5px;">Help</a>
+					<a ui-sref="chart" class="scrolly" style="border-bottom: none; color: white; font-size: 19px;float: right; margin-right: 20px; margin-top: 5px;">Chart</a>
+					<a ui-sref="index" class="scrolly" style="border-bottom: none; color: white; font-size: 19px;float: right; margin-right: 20px; margin-top: 5px;">Index</a>
+
+				</div>
+			</section>
+		
+		<div class="view-slide-in" ui-view></div>
+
+		<!-- Four -->
+			<section id="four" class="main style2 special">
+				<div class="container">
+					<header class="major">
+						<h2>Have you signed up to the Newsletter?</h2>
+					</header>
+					<p>Click on signup to do so.</p>
+					<ul class="actions uniform">
+						<li><a href="#" class="button special">Sign Up</a></li>
+						<li><a href="#" class="button">Learn More</a></li>
+					</ul>
+				</div>
+			</section>
+
+
+
+		<!-- Footer -->
+			<section id="footer">
+				<ul class="icons">
+					<li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+					<li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="#" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+					<li><a href="#" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; Copyright Antoine Drabble & Guillaume Serneels</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</section>
+
+		<!-- injector:js -->
+		<script src="/src/bower_components/jquery/dist/jquery.js"></script>
+		<script src="/src/bower_components/es5-shim/es5-shim.js"></script>
+		<script src="/src/bower_components/json3/lib/json3.min.js"></script>
+		<script src="/src/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+		<script src="/src/bower_components/angular/angular.js"></script>
+		<script src="/src/bower_components/angular-touch/angular-touch.js"></script>
+		<script src="/src/bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+		<script src="/src/bower_components/angular-aria/angular-aria.js"></script>
+		<script src="/src/bower_components/angular-mocks/angular-mocks.js"></script>
+		<script src="/src/bower_components/angular-cookies/angular-cookies.js"></script>
+		<script src="/src/bower_components/angular-animate/angular-animate.js"></script>
+		<script src="/src/bower_components/angular-sanitize/angular-sanitize.js"></script>
+		<script src="/src/bower_components/angular-resource/angular-resource.js"></script>
+		<script src="/src/bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+		<script src="/src/bower_components/chart.js/dist/Chart.js"></script>
+		<script src="/src/bower_components/angular-chart.js/dist/angular-chart.js"></script>
+		<script src="/app/app.js"></script>
+		<script src="/app/app.config.js"></script>
+		<script src="/app/modules/chart/chartModule.js"></script>
+		<script src="/app/modules/help/helpModule.js"></script>
+		<script src="/app/modules/index/indexModule.js"></script>
+		<script src="/app/modules/chart/chartRoute.js"></script>
+		<script src="/app/modules/help/helpRoute.js"></script>
+		<script src="/app/modules/index/indexRoute.js"></script>
+		<script src="/app/modules/chart/chartCtrl.js"></script>
+		<script src="/app/modules/help/helpCtrl.js"></script>
+		<script src="/app/modules/index/indexCtrl.js"></script>
+		<script src="/app/modules/chart/chartService.js"></script>
+		<script src="/app/modules/help/helpService.js"></script>
+		<script src="/app/modules/index/indexService.js"></script>
+		<!-- endinjector -->
+		<!-- Scripts -->
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+	</body>
+</html>
